@@ -1,0 +1,5 @@
+url(../icons/act_view.png)
+url(../icons/act_edit.png)
+url(../icons/act_ative.png)
+url(../icons/act_inative.png)
+url(../icons/act_delete.png)

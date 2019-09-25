@@ -1,0 +1,361 @@
+*{ margin: 0; padding: 0;  }
+
+
+
+body{ font-size: 16px;  font-family: 'Lato', sans-serif;}
+
+a{ text-decoration: none; }
+
+img{ border: none; }
+
+
+.header {
+
+  width: 100%;
+  
+}
+
+
+
+.container-fluid{    width: 100%; }
+
+.container{
+clear: both;
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 1% 3%;
+
+
+
+
+
+}
+
+.clear{ clear: both; }
+
+.back{ background-color: #ff0; }
+
+
+
+
+.post {
+
+  width: 31%;
+  background: #fff;
+  text-align: left;
+  float: left;
+  border-radius: 7px;
+  margin-bottom: 3%;
+  border: 1px solid #ccc;
+
+}
+
+  .post:nth-child(2) {
+    margin-right: 2%; }
+
+  .post:nth-child(3) {
+    margin-right: 0; }
+
+
+ 
+.header {
+
+  width: 100%;
+  
+}
+
+.container-header{
+
+   width: 100%;
+   margin: 0 auto;
+ 
+
+}
+
+ #logo{
+  
+
+  width: 160px;
+   z-index: 10000;
+  margin: 5px auto;
+  padding: none;
+  text-align: center;
+ 
+
+
+ 
+  }
+
+  #logo img{  width: 100%;  }
+
+  .box{width: 33.33%; float:left; padding: 0 15px; }
+
+  .box:nth-child(1){ padding-left: 0; }
+
+  .box-postagem{
+
+  border: 1px solid #f00;
+
+  }
+
+  .img-post{ width: 100%;    border: 1px solid #f00;}
+
+  .img-post img{ width: auto; border-radius: 7px 7px 0 0; }
+
+
+.post img {
+  border-radius: 7px 7px 0 0; }
+
+.content-post {
+  padding: 7%; }
+
+.content-post a {
+  font-size: 1.5em;
+  color: #130400;
+  font-weight: 700; }
+
+.content-post h4 {
+  font-size: 1.2em;
+  color: #130400;
+  margin-top: 2%; }
+
+.content-post p {
+  margin-top: 5%;
+  color: #130400;
+  line-height: 1.2em; }
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+
+  #logo{
+  
+  float: right;
+  margin-right: 50px;
+  width:120px;
+  padding: 4%;
+  z-index: 10000;
+ 
+ 
+  }
+
+ #logo img{ width: 120px;  }
+
+h1 {
+
+  font-size: 1.5em;
+
+   }
+
+
+   .post {
+
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  float: left;
+  border-radius: 7px;
+  margin-bottom: 3%;
+
+   }
+
+.post img {
+
+  border-radius: 7px 7px 0 0;
+
+   }
+
+.
+
+.btn-mais {
+ 
+  background: #900;
+  padding: 10px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+
+   }
+
+.btn-mais:hover {
+
+  text-decoration: none;
+  background: #900;
+  color: #fff; 
+
+}
+
+.left {
+
+  float: left;
+  width: 30.3%;
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+  
+.img-500{ 
+
+  width: 100%; height: 200px; border:1px solid #ccc; background: #fff;
+
+}
+
+.img-500 img{ 
+
+  display:block; height: 100%; margin-left: auto; margin-right: auto;
+
+}
+  
+.box-4{
+   
+float: left;
+width: 100%;
+margin-right: 15px; 
+
+}  
+   
+
+.profile{ 
+
+display: block;
+background: #eac704;
+color: #000;
+padding: 8px;
+margin-bottom: 4px;
+border-radius: 7px;
+
+}
+
+.cor{ 
+
+background: #d8d7d7;
+
+}
+
+
+
+#login {
+
+  width: 45%;
+  min-height: 300px;
+  margin: 30px auto;
+  background: #5A5552;
+  padding: 30px;
+  border-radius: 10px; 
+
+}
+
+#login h1 {
+
+  color: #fff;
+
+   }
+
+#login input[type='submit'] {
+  
+  background: #648F24;
+  width: 160px;
+  color: #fff; 
+
+}
+
+
+.border {
+
+  border: 2px solid #F30;
+
+   }
+
+.btn-default {
+
+  background: #e6e6e6;
+
+   }
+
+.img-500 {
+
+  padding: 5px 12px 5px 0px;
+
+   }
+
+.article-content {
+
+  font-size: 1.125em;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 60px; 
+
+}
+
+.txt-back1{
+
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #368527;
+
+}
+
+.footer {
+
+  background: #333;
+  min-height: 210px;
+  color: #fff;
+
+   }
+
+.footer h2 {
+
+  font-size: 1.5em;
+  color: #fff; 
+
+}
+
+.info-local {
+
+  width: 320px;
+  float: left; 
+
+}
+
+.info-links {
+
+  width: 320px;
+  float: left;
+
+   }
+
+.info-links a {
+
+  color: #fff;
+  text-decoration: none; 
+
+}
+
+}
+
+@media (min-width: 768px) {
+  width: 80%; }
+@media (max-width: 768px) {
+  #login {
+    width: 95%; }
+
+  #login h1 {
+    font-size: 2em; }
+
+  .btn-group-vertical {
+    width: 95%; }
+
+  .control-g {
+    width: 95%;
+    padding-bottom: 5px; }
+
+  .control-p {
+    width: 95%; } }
+
+/*# sourceMappingURL=main.css.map */
